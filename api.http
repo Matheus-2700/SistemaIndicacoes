@@ -1,0 +1,23 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+    "name": "indic",
+    "email": "indic0@gmail.com",
+    "referrer": "e748c4d1-7cbb-4120-9740-1af13083e3a6"
+}
+
+###
+GET http://localhost:3333/invites/e748c4d1-7cbb-4120-9740-1af13083e3a6
+
+###
+GET http://localhost:3333/subscribers/e748c4d1-7cbb-4120-9740-1af13083e3a6/ranking/clicks
+
+###
+GET http://localhost:3333/subscribers/e748c4d1-7cbb-4120-9740-1af13083e3a6/ranking/count
+
+###
+GET http://localhost:3333/subscribers/e748c4d1-7cbb-4120-9740-1af13083e3a6/ranking/position
+
+###
+GET http://localhost:3333/ranking
